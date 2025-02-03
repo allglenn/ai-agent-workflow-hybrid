@@ -1,7 +1,12 @@
 import openai
+from dotenv import load_dotenv
+import os
 
-# Set up OpenAI API key
-openai.api_key = "your-openai-api-key"
+# Load environment variables
+load_dotenv()
+
+# Set up OpenAI API key from environment variable
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 class SimpleAutonomousAgent:
     def __init__(self, system_prompt):
