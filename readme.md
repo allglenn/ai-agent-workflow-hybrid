@@ -3,6 +3,8 @@
 
 This project implements three different approaches to building LLM-powered applications using OpenAI's GPT models: a simple autonomous agent, a workflow-based system, and a hybrid agent-workflow system.
 
+- [Medium Article](https://medium.com/@glennlenormand/workflow-vs-agent-choosing-the-right-paradigm-for-llm-based-application-code-demo-4a87f4ed6975)
+
 ## Features
 
 ### 1. Simple Autonomous Agent (`simple-autonomous-agent.py`)
