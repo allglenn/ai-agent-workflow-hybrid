@@ -33,8 +33,8 @@ This project implements three different approaches to building LLM-powered appli
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd llm-based-agents
+git clone https://github.com/allglenn/ai-agent-workflow-hybrid.git
+cd ai-agent-workflow-hybrid
 ```
 
 2. Install required dependencies:
